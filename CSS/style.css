@@ -228,5 +228,31 @@
   
   .off {
     background: #C2185B;
+  }
 
+  .contato {
+    display: flex;
+  }
+
+  form, article {
+    flex: 1;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    margin-right: 40px;
+    color: #9b9b9b;
+  }
+  
+  input,
+  select {
+    margin-bottom: 15px;
+    padding: 5px 10px;
+    border: solid 1px #9b9b9b;
+  }
+  
+  label {
+    font-size: 18px;
+    margin-bottom: 5px;
   }
