@@ -1,252 +1,211 @@
-* {
-    box-sizing: border-box;
-  }
-  
-  body {
-    font-family: "Open Sans", sans-serif;
-    margin: 0;
-  }
-  
-  .container {
-    max-width: 1280px;
-    width: 100%;
-    margin: 0 auto;
-  }
-  
-  header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
-    }
-  
-  nav {
-    margin-right: 20px;
-  }
-  
-  .nav-link {
-    color: #777;
-    font-weight: 600;
-    text-decoration: none;
-    text-transform: uppercase;
-    padding-left: 16px;
-    }
-  
-  .banner {
-    background-image: url("../img/banner.png");
-    height: 235px;
-  }
+* * {
+  box-sizing: border-box;
+}
 
-  h2 {
-    font-family: "Open Sans";
-    font-style: normal;
-    font-weight: 800;
-    font-size: 50px;
-    line-height: 50px;
-    text-align: center;
-    color: #000000;
-    padding-top: 30px;
-    padding-bottom: 50px;
-  }
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+}
 
-  .featured {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    padding-bottom: 207px;
-    
-  }
-  
-  .off {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    width: 1280px;
-    height: 662px;
-    left: 0px;
-    top: 1554px;
-    background: #C2185B;
-  }
-  
-  h3 {
-    margin: 0;
-    font-family: "Open Sans";
-    font-style: normal;
-    font-weight: 800;
-    font-size: 44px;
-    line-height: 60px;
-    color: #FFFFFF;
-    text-align: center;
-    text-transform: uppercase;
-  }
-  
-  .promo {
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-evenly;
-    padding-bottom: 50px;
-  }
-  
-  .promo1 {
-    width: 260px;
-    height: 388px;
-    left: 102px;
-    top: 1729px;
-    background: #FFFFFF;
-    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.25);
-  }
-  
-  .produto {
-    text-transform: uppercase;
-    font-family: "Open Sans";
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 22px;
-    color: #000000;
-    padding-top: 18px;
-    padding-left: 11px;
-  }
-  
-  .preco {
-    font-family: "Open Sans";
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 22px;
-    color: #000000;
-    padding-bottom: 18px;
-    padding-left: 11px;
-  }
-  
-  .detalhes-sandalia {
-        display:flex;
-        flex-direction: row;
-        margin: 163px 105px 125px 127px;
-    }
-  
-  .coluna {
-      display:flex;
-      flex-direction: column;
-      justify-content: space-between;
-      padding-right: 28px;
-      font-size: 60px;
-  }
-  
-  .sandalia {
-      margin: 0;
-      text-transform: uppercase;
-      font-family: "Open Sans";
-      font-style: normal;
-      font-weight: 600;
-      font-size: 39px;
-      line-height: 53px;
-  }
-  
-  .button {
-    width: 403px;
-    height: 99px;
-    left: 127px;
-    top: 2501px;
-    background: #C2185B;
-  }
-  
-  .button p {
-    margin: 0;
-    font-family: "Open Sans";
-    font-style: normal;
-    font-weight: 600;
-    font-size: 39px;
-    line-height: 53px;
-    color: #FFFFFF;
-    text-align: center;
-    padding-top: 23px;
-    padding-bottom: 23px;
-  }
-  
-  .box-rodape {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: 0 auto;
-    width: 1280px;
-    height: 248px;
-    left: 0px;
-    top: 3434px;
-    background: #C2185B;
-  }
-  
-  .logo p {
-    margin-left: 127px;
-    width: 255px;
-    height: 91px;
-    left: 128px;
-    top: 3553px;
-    font-family: Open Sans;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 19px;
-    color: #FFFFFF;
-  }
-  
-  .logo img {
-    padding-left: 127px;
-  }
-  
-  h5 {
-    margin: 0;
-    font-family: "Open Sans";
-    font-style: normal;
-    font-weight: bold;
-    font-size: 20px;
-    line-height: 27px;
-    color: #FFFFFF;
-  }
-  .categorias {
-    margin-left: 150px;
-    width: 104px;
-    height: 137px;
-    font-family: "Open Sans";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 21px;
-    color: #FFFFFF;
-  }
-  
-  .institucional {
-    margin-right: 148px;
-    width: 246px;
-    height: 161px;
-    font-family: "Open Sans";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 21px;
-    color: #FFFFFF;
-  }
-  
-  .off {
-    background: #C2185B;
-  }
+.container {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+}
 
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+
+.nav-link {
+  color: #777;
+  font-weight: 600;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding-right: 20px;
+}
+
+.banner {
+  background-image: url(../img/banner.png);
+  height: 235px;
+}
+
+
+section.encontre-seu-estilo h2 {
+  text-align: center;
+  font-weight: 800;
+  font-size: 60px;
+  padding: 20px 0;
+}
+
+.featured {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 200px;
+}
+
+img#photoshoot-1 {
+padding-right: 55px;
+}
+
+section.off {
+  background-color: #C2185B;
+  height: 660px;
+}
+
+.off h2 {
+color: #FFFFFF;
+text-align: center;
+font-weight: 800;
+font-size: 44px;
+text-transform: uppercase;
+padding: 60px 0;
+margin: 0;
+}
+
+.promo {
+  display: flex;
+  justify-content: center;
+}
+
+.detalhes-1, .detalhes-2, .detalhes-3, .detalhes-4 {
+display: flex;
+flex-direction: column;
+}
+
+.detalhes-1, .detalhes-2, .detalhes-3 {
+padding-right: 18px;
+}
+
+.descricao {
+background-color: #FFFFFF;
+padding: 15px 0 30px 10px;
+}
+
+.descricao p {
+margin: 0;
+}
+
+.titulo p {
+font-weight: 600;
+text-transform: uppercase;
+}
+
+section.detalhes-sandalia {
+  display: flex;
+  justify-content: center;
+  margin: 160px 120px 110px;
+}
+
+.detalhes-sandalia h2 {
+font-weight: 600;
+font-size: 39px;
+text-transform: uppercase;
+margin: 0;
+}
+
+.coluna-detalhes {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.button {
+  background-color: #C2185B;
+  color: #FFFFFF;
+  width: 400px;
+  margin: 20px 0 55px;
+}
+
+.button p {
+text-align: center;
+font-weight: 600;
+font-size: 39px;
+margin: 20px 0;
+}
+
+footer {
+  background-color: #C2185B;
+  color: #FFFFFF;
+  height: 250px;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+footer .geral {
+font-size: 14px;
+width: 255px;
+padding-top: 10px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+
+.categorias, .institucional {
+margin: 55px 0;
+}
+
+footer h5 {
+font-weight: 700;
+font-size: 20px;
+margin: 0;
+}
+
+footer a {
+text-decoration: none;
+color: #FFFFFF;
+}
+
+footer p {
+margin: 0;
+}
+
+.geral {
+position: relative;
+}
+
+.geral p {
+position: absolute;
+top: 120px;
+}
+
+/* trabalhe conosco" */
+
+header.trabalhe-conosco {
+  box-shadow: 0px 1px 20px rgba(159, 159, 159, 0.65);
+  }
+  
+  .conteudo-principal {
+  margin: 25px 80px 55px 120px;
+  }
+  
   .contato {
     display: flex;
   }
-
+  
+  .contact-heading {
+    font-size: 40px;
+    font-weight: 600;
+    color: #575757;
+  }
+  
   form, article {
     flex: 1;
   }
-
+  
   form {
     display: flex;
     flex-direction: column;
-    margin-right: 40px;
+    margin-right: 60px;
     color: #9b9b9b;
   }
   
-  input,
-  select {
+  input, select {
     margin-bottom: 15px;
     padding: 5px 10px;
     border: solid 1px #9b9b9b;
@@ -255,4 +214,32 @@
   label {
     font-size: 18px;
     margin-bottom: 5px;
+  }
+  
+  textarea {
+  height: 80px;
+  }
+  
+  .curriculo {
+    display: flex;
+    margin: 22px 0;
+  }
+  
+  button#upload {
+    background-color: #C4C4C4;
+    color: #FFFFFF;
+    font-size: 20px;
+    border: none;
+    width: 118px;
+    padding: 0 10px;
+    margin-left: 20px;
+  }
+  
+  button#submit {
+    background-color: #C2185B;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 20px;
+    border: none;
+    padding: 5px 10px;
   }

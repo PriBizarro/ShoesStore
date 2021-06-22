@@ -8,8 +8,10 @@
   <title>Trabalhe Conosco</title>
 </head>
     <body>
-        <header class="container">
+        <header class="container TrabalheConosco">
+          <a href="index.html">
           <img src="img/logo-color.png" alt="Logo">
+        </a>
           <nav>
             <a class="nav-link" href="#">Todos os Produtos</a>
             <a class="nav-link" href="#">Coleções</a>
@@ -17,64 +19,110 @@
           </nav>
         </header>
         <main class="container">
-          <section>
-          <h2>Faça parte do nosso time</h2>
-          <div class="contato">
-          <form action="">
-            <label for="nome">Nome</label>
-            <input type="text" id="nome">
-
-            <label for="departamentos">Departamentos</label>
-          <select name="departamentos" id="departamentos">
-            <option selected disabled>Selecione um departamento</option>
-            <option value="tecnologia">Tecnologia</option>
-            <option value="design">Design</option>
-            <option value="rh">Recursos Humanos</option>
-          </select>
-
-          <label>Disponibilidade</label>
-          <div class="options">
-
-            <input type="checkbox" name="disponibilidade" id="opcao-integral">
-            <label for="opcao-integral">Integral (8h)</label>
-            
-            <input type="checkbox" name="disponibilidade" id="opcao-meio">
-            <label for="opcao-meio">Meio período (4h)</label>
-            
-            <input type="checkbox" name="disponibilidade" id="opcao-freelancer">
-            <label for="opcao-freelancer">Freelancer</label>
-          </div>
-
-          <label>Qual a melhor forma de entrarmos em contato com você?</label>
-          <div class="options">
-
-            <input type="checkbox" name="contato" id="opcao-email">
-            <label for="opcao-email">Email</label>
-            
-            <input type="checkbox" name="disponibilidade" id="opcao-ligação">
-            <label for="opcao-ligação">Ligação</label>
-            
-            <input type="checkbox" name="disponibilidade" id="opcao-whatsapp">
-            <label for="opcao-whatsapp">Whatsapp</label>
-          </div>
-          
-          <label for="nome">Mensagem</label>
-      <input type="text" id="nome"> 
-
-      <label for="Upload">Curriculo</label>
-          <input type="file" value="Upload"/>
-          <br/>
-
-  <input type="button" name="upload" id="enviar" value="enviar" width=""/>
-
-    </form>
-
-          <article>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-              </div> 
-          </article>
-        </section>
+          <section class="conteudo-principal">
+            <h2 class="contact-heading">Faça parte do nosso time</h2>
+            <div class="contato">
+              <form action="" method="POST">
+                <label for="nome">Nome</label>
+                <input type="text" name="nome" id="nome">
+    
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email">
+    
+                <label for="telefone">Telefone</label>
+                <input type="tel" name="telefone" id="telefone">
+    
+                <label for="departamentos">Departamentos</label>
+                <select name="departamentos" id="departamentos">
+                  <option selected disabled>Selecione um departamento</option>
+                  <option value="tecnologia">Tecnologia</option>
+                  <option value="design">Design</option>
+                  <option value="rh">Recursos Humanos</option>
+                </select>
+    
+                <label for="">Disponibilidade</label>
+                <div class="options">
+                  <input type="checkbox" name="disponibilidade" id="opcao-integral">
+                  <label for="opcao-integral">Integral (8h)</label>
+    
+                  <input type="checkbox" name="disponibilidade" id="opcao-meio">
+                  <label for="opcao-meio">Meio período (4h)</label>
+    
+                  <input type="checkbox" name="disponibilidade" id="opcao-freelancer">
+                  <label for="opcao-freelancer">Freelancer</label>
+                </div>
+    
+                <label for="">Qual a melhor forma para entrarmos em contato com você?</label>
+                <div class="options">
+                  <input type="radio" name="email" id="email">
+                  <label for="email">Email</label>
+    
+                  <input type="radio" name="ligacao" id="ligacao">
+                  <label for="ligacao">Ligação</label>
+    
+                  <input type="radio" name="whatsapp" id="whatsapp">
+                  <label for="whatsapp">WhatsApp</label>
+                </div>
+    
+                <label for="">Mensagem</label>
+                <textarea name="mensagem" id="mensagem" cols="80" rows="10"></textarea>
+    
+                <div class="curriculo">
+                  <label for="">Currículo</label>
+                  <button type="upload" id="upload">upload</button>
+                </div>
+    
+                <button type="submit" id="submit">enviar</button>
+              </form>
+              <article>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                  eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                  enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                  nisi ut aliquip ex ea commodo consequat.
+                </p>
+                <p>
+                  Duis aute irure dolor in reprehenderit in voluptate velit esse
+                  cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                  cupidatat non proident, sunt in culpa qui officia deserunt mollit
+                  anim id est laborum.
+                </p>
+                <p>
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                  nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                  reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                  nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                  sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+              </article>
+            </div>
+          </section>
+        </main>
+    
+        <footer class="container">
+          <section class="geral">
+            <img src="img\logo-white.png" alt="Logo">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+          </section>
+          <section class="categorias">
+            <h5>categorias</h5>
+            <p>sandálias</p>
+            <p>botas</p>
+            <p>tênis</p>
+            <p>oxford</p>
+            <p>coturnos</p>
+          </section>
+          <section class="institucional">
+            <h5>institucional</h5>
+            <p>sobre nós</p>
+            <p>perguntas frequentes</p>
+            <p>politica de privacidade</p>
+            <p>rastreamento de pedidos</p>
+            <p>contato</p>
+          </section>
+        </footer>
       </body>
-</html>
+    </html>
